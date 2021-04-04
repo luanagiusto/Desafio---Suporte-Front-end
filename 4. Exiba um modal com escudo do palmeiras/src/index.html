@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Palmeiras</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Exibir um modal com o escudo do Palmeiras</h2>
+        <!-- Botao para abrir o Modal -->
+        <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">
+            Abrir modal
+        </button>
+
+        <!-- O Modal -->
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Escudo do Palmeiras</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="img" style="width: 100%;">
+                       <img src="assets/escudoPalmeiras.png" class="img-fluid" alt="Responsive image">
+                        
+                         <p class="card-text">O atual escudo da Sociedade Esportiva Palmeiras foi instituído em 1942, após a mudança de nome do clube. Na circunferência maior, de fundo verde, aparece a inscrição “Palmeiras” em branco e, também em branco, oito estrelas fazem referência a agosto, mês de fundação do Palestra Italia. Na circunferência menor, de fundo branco, aparece em verde o contorno da Cruz de Savoia, símbolo da Casa Real Italiana e distintivo de camisa no primeiro campeonato disputado pela equipe, em 1916. O espaço interno é preenchido por 26 linhas alusivas ao dia de fundação do clube e pelo tradicional “P”, presente no emblema desde a época do Palestra. (Fonte: <a href="https://www.palmeiras.com.br/pt-br/simbolos/">Palmeiras</a>)</p>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+
+</html>
