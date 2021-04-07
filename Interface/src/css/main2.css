@@ -1,0 +1,221 @@
+
+:root {
+
+  --unnamed-color-ffffff: #FFFFFF;
+  --unnamed-color-edede3: #EDEDE3;
+  --unnamed-color-d0ced1: #D0CED1;
+  --unnamed-color-ff1430: #FF1430;
+  --unnamed-color-2fb640: #2FB640;
+  --unnamed-color-dddddd: #DDDDDD;
+  --unnamed-color-2b222f: #2B222F;
+  --unnamed-color-433b47: #433B47;
+  --unnamed-color-726c75: #726C75;
+  
+  
+  --font-family: Futura PT; font-weight: Bold; font-size: 12px; color: #EDEDE3;
+}
+
+body {
+top: 0px;
+left: 0px;
+width: 320px;
+height: 726px;
+}
+
+.container {
+  min-width: 992px !important;
+  background: #18131F 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 4px #0000000D;
+  
+}
+
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  
+  
+}
+
+
+#navbar {
+top: 0px;
+left: 0px;
+width: 320px;
+height: 60px;
+
+background: #18131F 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 4px #0000000D;
+opacity: 1;
+}
+
+
+
+
+.telefone {
+  top: 25px;
+  left: 186px;
+  width: 14px;
+  height: 25px;
+  background: transparent url('../assets/Elipse 2.svg') 0% 0% no-repeat padding-box;
+  
+  
+}
+
+.whatsapp {
+  top: 23px;
+  left: 224px;
+  width: 18px;
+  height: 22px;
+  background: transparent url('../assets/Elipse 1.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+
+.bg-red {
+top: 0px;
+left: 0px;
+width: 320px;
+height: 50px;
+background: var(--unnamed-color-ff1430) 0% 0% no-repeat padding-box;
+background: #FF1430 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 4px #00000026;
+opacity: 1;
+}
+
+.container-fluid {
+top: 75px;
+left: 15px;
+width: 79px;
+height: 18px;
+color: var(--unnamed-color-ffffff);
+text-align: left;
+background-image: url('./assets/Grupo 3702.svg');
+font: normal normal bold 14px/50px Futura PT;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+#imginst {
+  top: 81px;
+  left: 286px;
+  width: 12px;
+  height: 8px;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#rectangle {
+top: 63px;
+left: 0px;
+width: 320px;
+height: 534px;
+background: var(--unnamed-color-433b47) 0% 0% no-repeat padding-box;
+background: #433B47 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 4px #00000026;
+opacity: 1;
+}
+
+#list-group-flush {
+  top: 120px;
+left: 42px;
+width: 84px;
+height: 18px;
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal normal 14px/18px Futura PT;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+#quemsomos {
+  margin-left: 42px;
+}
+
+.list-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 0.25rem;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 12px;
+  background-color: #433B47;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.list-group-flush > .list-group-item {
+  border-width: 0 0 1px;
+  margin-left: 42px;
+}
+
+.list-group-flush > .list-group-item:last-child {
+  border-bottom-width: 0;
+}
+
+.list-group-flush {
+  border-radius: 0;
+}
+
+ul {
+  margin-top: 00;
+  margin-bottom: 0;
+}
+
+
+
+#contatos {
+background: var(--unnamed-color-433b47) 0% 0% no-repeat padding-box;
+background: #433B47 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 4px #00000026;
+opacity: 1;
+}
+
+.barra {
+top: 609px;
+left: 15px;
+width: 290px;
+height: 8px;
+background: transparent url('assets/Grupo 2998.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+#text {
+padding: 15px;
+color: var(--unnamed-color-edede3);
+text-align: center;
+font: normal normal bold 14px Futura PT;
+color: #EDEDE3;
+opacity: 1;
+}
+
+.border {
+padding: 0;
+top: 647px;
+left: 12px;
+width: 291px;
+height: 50px;
+border: 1px solid var(--unnamed-color-ff1430);
+border: 1px solid #FF1430;
+opacity: 1;
+}
